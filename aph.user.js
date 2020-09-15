@@ -1,11 +1,10 @@
 // ==UserScript==
 // @name         Idle Momentum APH Tracker
 // @author       Zephyron
-// @version      1.0.0
+// @version      1.0.1
 // @description  Tracks current and max APH info in Idle Momentum.
-// @include      https://idlemomentum.com
-// @include      https://www.idlemomentum.com
-// @include      https://www.idlemomentum.com/*
+// @include      https://idlemomentum.com/
+// @include      https://*.idlemomentum.com*
 // @run-at       document-end
 // ==/UserScript==
 
