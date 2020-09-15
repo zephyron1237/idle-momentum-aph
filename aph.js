@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name Idle Momentum APH Tracker
-// @author Zephyron (originally LazyBanana)
-// @version 2020-09-15
-// @description Tracks current and max APH info in Idle Momentum.
-// @include https://www.idlemomentum.com/*
-// @run-at document-end
+// @name         Idle Momentum APH Tracker
+// @author       Zephyron
+// @version      1.0.0
+// @description  Tracks current and max APH info in Idle Momentum.
+// @include      https://www.idlemomentum.com/*
+// @run-at       document-end
 // ==/UserScript==
 
 /*
