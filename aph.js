@@ -15,6 +15,8 @@
   see: https://github.com/zephyron1237/idle-momentum-aph/blob/master/README.md
 */
 
+(function() {
+
 // Provide a default config if one is not defined before aph.js is loaded.
 if (typeof aphConfig === 'undefined') {
   aphConfig = {
@@ -83,3 +85,5 @@ aph = {
     aph.globalInfo.innerHTML = htmlSegments.join(' | ');
   }, 100) // Repeat every 100ms
 };
+
+})();
