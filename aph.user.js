@@ -1,13 +1,3 @@
-// ==UserScript==
-// @name         Idle Momentum APH Tracker
-// @author       Zephyron
-// @version      1.0.1
-// @description  Tracks current and max APH info in Idle Momentum.
-// @include      https://idlemomentum.com/
-// @include      https://*.idlemomentum.com*
-// @run-at       document-end
-// ==/UserScript==
-
 /*
   The code in this file is intended to be run in the game's tab at
                http://www.idlemomentum.com/
@@ -15,6 +5,15 @@
   For additional details on use this as a bookmarklet or with tampermonkey,
   see: https://github.com/zephyron1237/idle-momentum-aph/blob/master/README.md
 */
+
+// ==UserScript==
+// @name         Idle Momentum APH Tracker
+// @author       Zephyron (originally LazyBanana)
+// @version      1.0.2
+// @description  Tracks current and max APH info in Idle Momentum.
+// @include      https://idlemomentum.com*
+// @run-at       document-end
+// ==/UserScript==
 
 (function() {
 
