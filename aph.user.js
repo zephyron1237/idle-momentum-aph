@@ -3,6 +3,7 @@
 // @author       Zephyron
 // @version      1.0.0
 // @description  Tracks current and max APH info in Idle Momentum.
+// @include      https://www.idlemomentum.com
 // @include      https://www.idlemomentum.com/*
 // @run-at       document-end
 // ==/UserScript==
