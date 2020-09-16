@@ -9,7 +9,7 @@
 // ==UserScript==
 // @name         Idle Momentum APH Tracker
 // @author       Zephyron (originally LazyBanana)
-// @version      1.0.2
+// @version      1.0.3
 // @description  Tracks current and max APH info in Idle Momentum.
 // @include      https://idlemomentum.com*
 // @run-at       document-end
@@ -50,7 +50,7 @@ aph = {
     var timeString = formattingUtils.duration(time);
     
     var ap = game.getUnclaimedAP().toNumber();
-    var avgAph = (ap / time * 3600) || 0;
+    var avgAph = time ? (ap / time * 3600) : 0;
     
     if (time < aph.maxAph.time || avgAph >= aph.maxAph.value) {
       aph.maxAph.time = time;
